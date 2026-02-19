@@ -1,0 +1,14 @@
+{
+    "extends": "../../../../../tsconfig.json",
+    "compilerOptions": {
+        "composite": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        // EXERCISE 2:
+        // With a pathological type, this will take forever. 
+        "exactOptionalPropertyTypes": false
+    },
+    "include": [
+        "src"
+    ]
+}

@@ -7,7 +7,9 @@
     "test:watch": "vitest",
     "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.type-tests.json --noEmit",
     "lint": "eslint .",
-    "verify": "pnpm lint && pnpm typecheck && pnpm test"
+    "verify": "pnpm lint && pnpm typecheck && pnpm test",
+    "advanced:17:build": "tsc -b advanced/17-large-scale-architecture-patterns/fixtures/monorepo/tsconfig.json",
+    "advanced:18:typecheck": "tsc -p advanced/18-migration-integration-strategies/fixtures/legacy-js/tsconfig.json --noEmit"
   },
   "devDependencies": {
     "@eslint/js": "^9.0.0",

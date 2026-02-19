@@ -1,0 +1,20 @@
+{
+    "extends": "../../../../tsconfig.json",
+    "compilerOptions": {
+        "outDir": "dist",
+        "rootDir": "src",
+        // EXERCISE 1 (Step 1):
+        // Change `allowJs` to true so the compiler even parses legacy.js
+        "allowJs": false,
+        // EXERCISE 1 (Step 2):
+        // Change `checkJs` to true. It will now parse the JSDoc comments inside legacy.js 
+        // and flag errors when types are violated!
+        "checkJs": false,
+        // EXERCISE 1 (Step 3):
+        // Notice `strict` is true globally. If we have implicit any's, they will fail.
+        "noEmit": true
+    },
+    "include": [
+        "src"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "extends": "../../../../../tsconfig.json",
+    "compilerOptions": {
+        "composite": true,
+        "outDir": "dist",
+        "rootDir": "src"
+    },
+    "include": [
+        "src"
+    ],
+    "references": [
+        // FIX ME FOR EX01: Core depends on Utils. Add the reference:
+        // { "path": "../utils" }
+    ]
+}

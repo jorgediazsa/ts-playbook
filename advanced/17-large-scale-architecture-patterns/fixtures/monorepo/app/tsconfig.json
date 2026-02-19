@@ -1,0 +1,20 @@
+{
+    "extends": "../../../../../tsconfig.json",
+    "compilerOptions": {
+        "composite": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        // EXERCISE 3:
+        // If we changed moduleResolution to "Node16", the imports in `src/index.ts` 
+        // would fail because they lack the `.js` extension required by Node16 ESM.
+        "moduleResolution": "Bundler",
+        "module": "ESNext"
+    },
+    "include": [
+        "src"
+    ],
+    "references": [
+        // FIX ME FOR EX01: App depends on Core. Add the reference:
+        // { "path": "../core" }
+    ]
+}

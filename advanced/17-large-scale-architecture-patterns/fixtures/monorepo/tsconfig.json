@@ -1,0 +1,14 @@
+{
+    "files": [],
+    "references": [
+        {
+            "path": "./utils"
+        },
+        {
+            "path": "./core"
+        },
+        {
+            "path": "./app"
+        }
+    ]
+}
